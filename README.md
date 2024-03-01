@@ -10,7 +10,8 @@
 # Feature
 
 ## 1. `gsw` --> Change git branch using no.
-- Type `gsw` and it lists all available local branches and ask you to input the branch no., which you would like to switch to. * with green color means that your current branch.
+- Type `gsw` and it lists all available local branches and ask you to input the branch no., which you would like to switch to. Note that branch marked with * is your current branch.
+
 ```console
 $ gsw
 1.   master
@@ -46,6 +47,7 @@ $ git branch
 
 ## 2. `gsw -m` --> Fast switch back to `master` branch
 - use `gsw -m` to switch back to master branch directly
+
 ```console
 $ gsw -m
 Switched to branch 'master'
@@ -61,6 +63,7 @@ $ git branch
 
 ## 3. `gsw -c <branch name>` --> create new branch
 - use `gsw -c <branch name>` to create new branch
+
 ```console
 $ gsw -c test-new-branch
 Switched to a new branch 'test-new-branch'
@@ -80,11 +83,11 @@ $ git branch
 | ---------------------- | ------------------------------------------ |
 | `gsw` + no.            | Change git branch using no.                |
 | `gsw -m`               | Switch to `master` branch                  |
-| `gsw -c <branch name>` | Create branch with name in `<branch name>` |
-
+| `gsw -c <branch name>` | Create a branch with name `<branch name>` |
 
 # Reason I wrote this blog
-How do you switch git branch? Most of you may follow below steps
+How do you switch git branch? Most of you may follow below steps:
+
 1. Use `git branch` to list all the branches
 2. Find your desired branch and copy the name
 3. Type `git checkout` or  `git checkout` and then paste the name
