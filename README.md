@@ -80,7 +80,7 @@ $ git branch
 
 # Summary
 | Command                | Description                                |
-| ---------------------- | ------------------------------------------ |
+| :---------------------- | :------------------------------------------ |
 | `gsw` + no.            | Change git branch using no.                |
 | `gsw -m`               | Switch to `master` branch                  |
 | `gsw -c <branch name>` | Create a branch with name `<branch name>` |
